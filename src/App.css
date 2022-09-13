@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: #f1f5f8;
+}
+
+.bit--container {
+  width: 100%;
+}
+
+.center {
+  width: 610px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(126, 125, 125, 0.2),
+    0 6px 20px 0 rgba(126, 125, 125, 0.2);
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.center h1 {
+  letter-spacing: 1px;
+  color: #0e3856;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.form input {
+  width: 70%;
+  border: none;
+  height: 30px;
+  background-color: #f1f5f8;
+  border-radius: 5px 0 0 5px;
+}
+
+.form button {
+  border: none;
+  background-color: #a5d5f8;
+  height: 30px;
+  width: 80px;
+  border-radius: 0 5px 5px 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover {
+  background-color: #49a6e9;
+  color: white;
+}
+
+.ul--container {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.list {
+  display: flex;
+  width: 82%;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.list.active {
+  background-color: #f1f5f8;
+}
+
+.list:hover {
+  background-color: #f1f5f8;
+}
+
+.list p {
+  letter-spacing: 3px;
+}
+
+.list button {
+  border: none;
+  background-color: transparent;
+}
+
+.edit--logo {
+  color: #46c452;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit--logo:hover {
+  color: #25b632;
+}
+
+.trash--logo {
+  color: #bb2525;
+  cursor: pointer;
+  padding-left: 7px;
+  transition: 0.2s;
+}
+
+.trash--logo:hover {
+  color: #800909;
+}
+
+.delete--all {
+  border: none;
+  background-color: transparent;
+  color: #bb2525;
+  padding: 15px 0 10px 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.delete--all:hover {
+  color: #800909;
+}
+
+.form input {
+  color: #7d94ab;
+}
+
+.form input[type="text"] {
+  padding-left: 15px;
+  font-size: 15px;
+}
